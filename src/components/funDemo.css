@@ -1,0 +1,25 @@
+.container {
+  background: pink;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  width: 100%;
+}
+
+.box {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  box-shadow: 8px 8px 16px #e4a0a0, -8px -8px 16px #ffd6d6;
+}
+
+.box > div {
+  position: absolute;
+  will-change: transform;
+  border-radius: 50%;
+  background: #ffc0cb;
+  width: 100px;
+  height: 100px;
+  box-shadow: 8px 8px 16px #e4a0a0, -8px -8px 16px #ffd6d6;
+}
